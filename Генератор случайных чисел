@@ -1,4 +1,4 @@
-<h3>Генератор случайных чисел</h3>
+<h3>Генератор рандом чисел</h3>
 <script language="JavaScript">
 function randomInteger(min, max) {
 var rand = min + Math.random() * (max - min)
