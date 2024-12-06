@@ -1,0 +1,22 @@
+<h3>Генератор случайных чисел</h3>
+<script language="JavaScript">
+function randomInteger(min, max) {
+var rand = min + Math.random() * (max - min)
+rand = Math.round(rand);
+return rand;
+}
+umber = randomInteger(1, 4);
+console.log(number);
+if (number == 1) {
+document.write("<h3>68</h3>")
+}
+if (number == 2) {
+document.write("<h3>72</h3>")
+}
+if (number == 3) {
+document.write("<h3>65</h3>")
+}
+if (number == 4) {
+document.write("<h3>75</h3>")
+}
+</script>
